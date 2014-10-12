@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="C" Database="">
   <Project Name="Assignment1" Path="Assignment1/Assignment1.project" Active="Yes"/>
+  <Project Name="Assignment2" Path="Assignment2/Assignment2.project"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Project Name="Assignment1" ConfigName="Debug"/>
+      <Project Name="Assignment2" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Project Name="Assignment1" ConfigName="Release"/>
+      <Project Name="Assignment2" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
