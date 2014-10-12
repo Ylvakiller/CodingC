@@ -1,7 +1,13 @@
 #include <stdio.h>
 
-int main(int argc, char **argv)
+int main( void )
 {
-	printf("hello world\n");
+	int amount;
+
+	printf("How many numbers do you want to have in the first array?\n");
+	scanf("%d", &amount);
+
+	printf("%d\n", a);
+
 	return 0;
 }
