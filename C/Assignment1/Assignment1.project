@@ -92,7 +92,5 @@
   </Settings>
   <VirtualDirectory Name="src">
     <File Name="main.c"/>
-    <File Name="test.h"/>
-    <File Name="test.cpp"/>
   </VirtualDirectory>
 </CodeLite_Project>
