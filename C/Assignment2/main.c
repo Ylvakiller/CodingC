@@ -35,6 +35,16 @@ int main( void )
 			}
 			i++;
 		}
+		while(i<amount1){
+			final[i]=one[i];
+			i++;
+		}
+		printf("Sorting this whole array gives:\n");
+		i=0;
+		while (i<amount1){
+			printf("%f\n", final[i]);
+			i++;
+		}
 	}else{
 		float final[amount2];
 		
