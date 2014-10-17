@@ -1,9 +1,9 @@
 #include <stdio.h>
 
+
 int main( void )
 {
 	int amount1;
-
 	printf("How many numbers do you want to have in the first array?\n");
 	scanf("%d", &amount1);
 	printf("Please enter your numbers, seperated by an enter:\n");
@@ -24,8 +24,21 @@ int main( void )
 		scanf("%f", &two[i]);
 		i++;
 	}
-	
-	
+	i=0;
+	if(amount1>=amount2){
+		float final[amount1];
+		while (i<amount2){
+			if (one[i]>two[i]){
+				final[i]=one[i];
+			}else{
+				final[i]=two[i];
+			}
+			i++;
+		}
+	}else{
+		float final[amount2];
+		
+	}
 	
 	//printf("%d\n", amount);
 
