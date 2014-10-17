@@ -3,7 +3,7 @@
   <Project Name="Assignment1" Path="Assignment1/Assignment1.project" Active="No"/>
   <Project Name="Assignment2" Path="Assignment2/Assignment2.project" Active="Yes"/>
   <BuildMatrix>
-    <WorkspaceConfiguration Name="Debug" Selected="yes">
+    <WorkspaceConfiguration Name="Debug" Selected="no">
       <Project Name="Assignment1" ConfigName="Debug"/>
       <Project Name="Assignment2" ConfigName="Debug"/>
     </WorkspaceConfiguration>

@@ -18,7 +18,7 @@ int main( void )
 	printf("And how many in the second array?\n");
 	scanf("%d", &amount2);
 	float two[amount2];
-	printf("Enter your second set of numbers please:");
+	printf("Enter your second set of numbers please:\n");
 	i=0;
 	while (i<amount2){
 		scanf("%f", &two[i]);
@@ -47,7 +47,24 @@ int main( void )
 		}
 	}else{
 		float final[amount2];
-		
+		while (i<amount1){
+			if (one[i]>two[i]){
+				final[i]=one[i];
+			}else{
+				final[i]=two[i];
+			}
+			i++;
+		}
+		while(i<amount2){
+			final[i]=two[i];
+			i++;
+		}
+		printf("Sorting this whole array gives:\n");
+		i=0;
+		while (i<amount2){
+			printf("%f\n", final[i]);
+			i++;
+		}
 	}
 	
 	//printf("%d\n", amount);
