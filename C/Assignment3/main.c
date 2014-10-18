@@ -11,6 +11,16 @@ int main(int argc, char **argv)
 		printf("All other non-negative inputs will just be confirmed.\n");
 		printf("Meaning that these are just dummy procedures...\n");
 		printf("Please enter your number now:\n");
+		int input;
+		scanf("%d", &input);
+		if(input<0){
+			printf("Terminating program.\n");
+			running=0;
+		}else if(input==2){
+			printf("Sorting arrays./n");
+		}else{
+			printf("%d\n",input);
+		}
 	}
 	return 0;
 }
